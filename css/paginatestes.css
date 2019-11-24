@@ -58,3 +58,53 @@ main {
     
 
 }
+
+#categoria {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #d91c71;
+
+}
+
+.formulario {
+    font-size: 18px;
+    text-align: left;
+
+}
+
+#broco {
+
+}
+
+#conteudo-aside{
+    width: 80%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+aside h2{
+    font-size: 1.0em;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+main aside video{
+    width: 100%;
+    height:240px; 
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+main aside figure img{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+figure#camisetas img{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}

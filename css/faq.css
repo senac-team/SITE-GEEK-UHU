@@ -1,0 +1,429 @@
+* {
+    margin: 0px; /* Retira margem padrão de todos os elementos */
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:white;
+}
+
+#container {
+    max-width: 1000px;
+    min-width: 980px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    position: fixed;
+    left: 0;
+    z-index: 9999999;
+}
+
+header nav {
+    width: 100%;
+    height: 50px;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+
+header nav ul li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+header nav ul li:hover {
+    background-color: rgb(177, 46, 177);
+}
+
+
+header nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+main {
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+#conteudo {
+    width: 65%;
+    height: auto;   
+    float: left;
+  
+}
+
+#central-de-ajuda{
+    width: 100%;
+    height: 60px;
+}
+
+#central-de-ajuda h1{
+    width: auto;
+    height: auto;
+    color: rgb(34, 34, 34);
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: SimplonLight;
+    font-weight: 400;
+
+}
+
+#pergunda-centrald-de-ajuda h3{
+    color: rgb(34, 34, 34);
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    font-family: SimplonLight;
+    font-weight: 400;
+}
+
+.pesquisa {
+    flex-direction: row;
+    width: 370px;
+    margin-top: 10px;
+}
+
+#linha {
+    height: 1px;
+    width: 100%;
+    background-color:violet
+}
+
+.barra-de-pesquisa{
+    width: 85%;
+    height: 50px;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.botao{
+    background:url(../img/faq/Lupa.png);
+    width:38px;
+    height:35px;
+    vertical-align: middle;
+    border:0;
+}
+
+#img-pokemon figure{
+    width: 235px;
+    height: 206px;
+    margin-top: 40px;
+    background-color: rgb(180, 45, 135);
+}
+
+#img-pokemon figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.espaco {
+    width: 100%;
+    height: 60px;
+  }
+
+aside{
+    width: 35%;
+    height: auto;
+    margin-top: 140px;
+    float: right;   
+}
+
+#titulo-lateral h2{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: SimplonLight;
+    color: rgb(233, 45, 45);
+
+}
+
+#lista-categorias{
+    width: 100%;
+}
+
+#lista-categorias ul{
+    width: 100%;
+    padding: 0;
+    margin-top: 35px;
+    list-style-type: none; 
+}
+
+#lista-categorias ul li{
+    width: 43%;
+    display: inline-block;
+    margin: 0.55rem ; 
+}
+
+#lista-categorias ul li a{
+    font-weight: none;
+    text-decoration: none;
+    font-size: 23px;
+    color:rgb(158, 153, 153);
+    font-family: SimplonLight;
+}
+
+aside #lista-categorias ul li a:hover {
+    color:rgb(196, 42, 196);
+}
+
+#mais-procurados{
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#titulo-mais-procurados{
+    width: 100%;
+    height: 80px;
+}
+
+#titulo-mais-procurados h2{
+    color: rgb(34, 34, 34);
+    padding-top: 50px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: SimplonLight;
+}
+
+#mais-procurados article {
+    width: 32.523%;
+    height: 98%;
+    box-shadow: rgba(148, 145, 145, 0.3) 10px 0px 100px 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 4px;
+    float: left;
+}
+
+.titulo-conteudo-categoria{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.titulo-conteudo-categoria h3{
+
+    font-family: SimplonLight;
+    color: rgb(233, 45, 45);
+    font-size: 18px;
+}
+
+.pergunta-conteudo-categoria{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.pergunta-conteudo-categoria a{
+    color:rgb(158, 153, 153); 
+    text-decoration: none;  
+}
+
+.pergunta-conteudo-categoria a:hover {
+    color:rgb(196, 42, 196);
+}
+
+.linha-categorias {
+    height: 1px;
+    width: 80%;
+    background-color:rgb(241, 206, 241);
+    margin:auto;
+}
+
+#perguntas-mais-procuradas{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#titulo-perguntas-mais-procuradas{
+    width: 33.5%;
+    height: 100%;
+    float: left;
+}
+
+#titulo-perguntas-mais-procuradas h2{
+    padding-top: 80px;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: indigo;
+    opacity: 55%;
+}
+#img-pokemon2 figure{
+    width: 100%;
+    height: 280px;
+    margin-top: 8px;
+
+}
+
+#img-pokemon2 figure img{
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
+
+}
+
+#perguntas-mais-procuradas aside{
+    width: 66.5%;
+    height: 100%;
+    float: right;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.pergunta-mais-procurada{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.pergunta-mais-procurada span{
+    color:rgb(233, 45, 45);
+    opacity: 65%;
+    margin-top: 20px;
+}
+
+.pergunta-mais-procurada a{
+    font-size: 20px;
+    color:rgb(158, 153, 153);   
+    text-decoration: none;
+}
+
+.pergunta-mais-procurada a:hover {
+    color: rgb(177, 46, 177);
+}
+
+.linha-mais-procurada{
+    margin-top: 35px;
+    height: 1px;
+    width: 85%;
+    background-color:rgb(211, 207, 211);
+    opacity: 45%;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    margin-top: 110px; 
+}
+
+#atendimento{
+    width: 100%;
+    height:60%;
+}
+
+footer article {
+    width: 30%;
+    height: 98%;
+    margin: 4px;
+    margin-left: 10px;
+    float: left;
+}
+
+footer article h3{
+    opacity: 80%;
+}
+
+footer nav {
+    width: 100%;
+    height: 50px;
+}
+
+footer nav ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin-top: 10px;
+}
+
+footer article a{ 
+    padding-top: 18px;
+    font-size: 20px;
+    font-family: SimplonLight;
+    text-decoration: none;
+    color: black;
+    opacity: 60%;
+}
+
+footer nav ul a:hover {
+    color: rgb(177, 46, 177);
+}
+
+#linha-footer{
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    background-color:rgb(240, 198, 82);
+    opacity: 45%;
+}
+
+#footer-final{ 
+    width: 100%;
+    background-color:rgb(208, 184, 231);
+    opacity: 85%;
+}
+
+#footer-final nav {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#footer-final nav ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+
+#footer-final nav ul li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; 
+    margin-left: 10px;
+}
+
+#footer-final a{ 
+
+    font-size: 20px;
+    font-family: SimplonLight;
+    text-decoration: none;
+    color: black;
+
+}
+
+#footer-final a:hover {
+    color: rgb(177, 46, 177);
+}

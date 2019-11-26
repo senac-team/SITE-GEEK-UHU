@@ -16,6 +16,11 @@ nav{
     /* As tags abaixo servem para fixar o menu de navegação na página sem que os slides fiquem em cima dele */
     position: fixed;
     z-index: 9999999;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#activeMenu {
+  background-color: rgb(255, 0, 0);
 }
 
 nav ul{    
@@ -47,8 +52,6 @@ nav ul li a {
 
 main {
     /* definição de largura máxima e largura mínina para layout semi-fluído */
-    max-width: 1024px;
-    min-width: 960px;
     height: 100%;
     margin: 0px auto; /* sempre utilizar margin: auto; para centralizar elementos horizoltalmente */
     /* Como o menu ficou fixo, ele acabou cortando parte dos slides do qual faz parte da tag "main"
@@ -62,8 +65,9 @@ section h2{
 }
 
 #produtos{
-    width: 100%;
+    width: 70%;
     height: 360px;
+    margin: 0 15% 0 15%;
 }
 
 #produtos article {
@@ -87,7 +91,7 @@ section h2{
 }
 
 #produtos article h4 {
-    text-align: center;
+    text-align: left;
     font-size: 15px;    
     width: 100%;
     margin-bottom: 20px;
@@ -100,7 +104,7 @@ section h2{
 #produtos article p {
     font-size: 13px;
     text-align: left;
-    padding: 0 13% 0 13%;    
+    padding: 0 13% 0 0;    
 }
 
 #produtos article p b{
@@ -120,7 +124,7 @@ section h2{
 /*---------- SLIDE SHOW --------------- */
 .sliderProdutos {
   max-width: 100%;
-  height:250px;
+  height: 250px;
   position: relative;
   margin: auto;  
 }

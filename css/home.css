@@ -1,0 +1,256 @@
+* {
+    margin: 0px; /* Retira margem padrão de todos os elementos */
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#container {
+    max-width: 85%;
+    min-width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    position: fixed;
+    left: 0;
+    z-index: 9999999;
+}
+
+header nav {
+    width: 100%;
+    height: 50px;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+
+header nav ul li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+header nav ul li:hover {
+    background-color: rgb(252, 81, 161);
+}
+
+header nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+main {
+    width: 100%; 
+    height: auto;
+}
+
+#conteudo {
+    width: 100%; 
+    height: auto;
+}
+
+#post {
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+}
+
+#destaque {
+    width: 100%;
+    height: auto;
+    background-color: rgb(43, 198, 226);
+    padding-top: 6%;
+}
+
+#menu-cat-destaque-1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 30, 0);
+}
+
+#menu-cat-destaque-2{
+    margin-top: 2%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 30, 0);
+}
+
+.fig-menu-destaque1{
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 0, 200);
+    float: left;
+}
+
+.fig-menu-destaque2{
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 0, 200);
+    float: left;
+    margin-left: 1%;
+}
+
+
+#menu-cat-destaque-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#menu-cat-destaque-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.fig-noticia{
+    width: 250px;
+    height: 80%;
+    background-color: rgb(179, 162, 179);   
+}
+
+
+.fig-menu-destaque3{
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 0, 200);
+    float: right;
+  
+}
+
+#testes {
+    width: 100%;
+    height: 240px;
+    background-color: rgb(43, 226, 104);
+}
+
+#banner {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 125, 43);
+    margin: auto;
+}
+
+#inferior {
+    width: 100%;
+    height: 1860px;
+    background-color: rgb(226, 177, 43);
+}
+
+#post-inferior{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(255, 0, 13);
+    float: left;
+}
+
+#noticias{
+    width: 100%;
+    height: auto;
+    background-color: violet;
+    margin:0;
+}
+
+article h3{
+    padding-top: 40px;
+}
+
+.coluna{
+    width: 100%;
+    height: 230px;
+    background-color: rgb(245, 239, 245);
+    margin-top: 10px;
+}
+
+.linha{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 0px;
+}
+
+.noticia1{
+    width: 250px;
+    height: 100%;
+    background-color: rgb(168, 96, 168); 
+    float: left;  
+}
+
+.noticia2{
+    width: 250px;
+    height: 100%;
+    background-color: rgb(168, 96, 168);   
+    float: left;
+    margin-left: 9.3%;
+}
+
+.noticia3{
+    width: 250px;
+    height: 100%;
+    background-color: rgb(168, 96, 168);   
+    float: right;
+}
+
+.fig-noticia{
+    width: 250px;
+    height: 80%;
+    background-color: rgb(179, 162, 179);   
+}
+
+.fig-noticia img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.descricao{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(47, 196, 255);
+}
+
+.descricao p {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(92, 88, 88);
+}
+
+aside {
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+
+#conteudo-aside{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+aside #area-conteudo{
+    width: 88%;
+    height: 100%;
+    background-color: rgb(62, 65, 62);
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: indigo;
+}

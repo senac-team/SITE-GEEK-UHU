@@ -17,8 +17,7 @@ body{
 }
 
 #conteudo {
-    width: 80%;
-    margin: auto;
+    width: 100%;
 }
 
 #post {
@@ -124,7 +123,7 @@ main aside figure img{
     height: 50px;
 }
 
-.primeiro{
+.primeiro :first-child{
     width: 100%;
     height: 454px;
     margin-top: 15px;
@@ -136,7 +135,7 @@ main aside figure img{
     margin: auto;
 }
 .segundo figure{
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: auto;
 }
@@ -146,7 +145,7 @@ main aside figure img{
     height: 100%;
 }
 .segundo figure img{
-    margin: auto;
+    margin-left: 115px;
 }
 
 .titulo{
@@ -172,51 +171,34 @@ main aside figure img{
     text-align: center;
 }
 
-.post-txt{
+.post-texto{
     width: 100%;
     height: auto;
 }
-
-section.txt{
-    margin-top: 15px;
-}
-
-.data2{
-    width: 100%;
-    height: 30px;
-}
-
-.data2 p{
-    font-size: 0.64em;
-    color: #B3B3B3;
-    line-height: 1em;    
-    text-align: center;
-    padding-top: 15px;
-    
-}
-.post-txt p{
+.post-texto p{
     width: 90%;
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 0.9em;;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     color: white;
-    line-height: 20px;
+    line-height: 20px; 
+    padding-top: 15px;    
 }
 
-.post-txt h3{
+.post-texto h3{
     color:  rgb(255, 214, 214);
     text-align: center;
 }
 
-.post-txt figure{
+.post-texto figure{
     width: 90%;
     height: 100%;
     margin-top: 10px;
     margin: auto;
 }
 
-.post-txt figure img{
+.post-texto figure img{
     width: 100%;
     height: 454px;
 }
@@ -229,16 +211,11 @@ section.txt{
 #linha {
     width: 100%;
     height: 5px;
-    background-color: rgb(223, 115, 88);
+    background-color: rgb(87, 92, 87);
     opacity: 15%;
 }
 
-#thor img{
-    width: 100%;
-    height: 60%;
-}
-
-#loja img{
+#tutorial img{
     width: 100%;
     height: 200px;
 }

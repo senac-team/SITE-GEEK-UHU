@@ -8,8 +8,8 @@ body{
 }
 
 #container {
-    max-width: 90%;
-    min-width: 80%;
+    max-width: 1290px;
+    min-width: 1290px;
     height: auto;
     margin: auto;
     background-color: rgb(32, 31, 31);

@@ -183,7 +183,7 @@ main {
 
 article h3{
     padding-top: 40px;
-    color:#3bb4b4;
+    color: white;
     margin-left: 6%;;
 }
 
@@ -301,7 +301,7 @@ footer article {
 
 footer article h3{
     margin: 0;
-    color: #3bb4b4;
+    color: indigo;
 }
 
 footer nav {

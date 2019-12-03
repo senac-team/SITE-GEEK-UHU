@@ -100,12 +100,6 @@ main h2, h3{
     background-color: #4b0082;    
 }
 
-main aside video{
-    width: 100%;
-    height: 240px; 
-    margin: auto;
-    margin-top: 20px;
-}
 
 main aside figure img{
     width: 100%;

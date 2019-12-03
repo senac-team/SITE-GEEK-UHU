@@ -496,7 +496,7 @@ footer nav ul a:hover {
 
 #footer-final{ 
     width: 100%;
-    background-color:rgb(208, 184, 231);
+    background-color:rgb(137, 58, 211);
     opacity: 85%;
 }
 
@@ -527,7 +527,7 @@ footer nav ul a:hover {
     font-size: 20px;
     font-family: SimplonLight;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 

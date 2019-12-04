@@ -47,11 +47,11 @@ nav{
     /* As tags abaixo servem para fixar o menu de navegação na página sem que os slides fiquem em cima dele */
     position: fixed;
     z-index: 9999999;
-    border: 1px solid indigo;
+    border: 1px solid #ffa500;
 }
 
 #activeMenu {
-  background-color: indigo;
+  background-color: #ffa500;
 }
 
 nav ul{    
@@ -72,7 +72,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-  background-color:indigo;
+  background-color:#ffa500;
 }
 
 nav ul li a {
@@ -87,7 +87,7 @@ section#espaco-header{
 
 main h2, h3{
     color: rgb(0,0,0);
-    background-color: #4b0082;    
+    background-color: #ffa500;    
 }
 
 main aside {
@@ -209,7 +209,7 @@ section#post-texto p{
 }
 
 .post-texto h3{
-    color: indigo;
+    color: #ffa500;
     text-align: center;
 }
 

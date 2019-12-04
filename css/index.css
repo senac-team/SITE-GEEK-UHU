@@ -163,7 +163,7 @@ main {
 #inferior {
     width: 100%;
     height: 1860px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #inferior img:hover {
@@ -245,7 +245,7 @@ article h3{
 }
 
 #noticias{
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .descricao p {

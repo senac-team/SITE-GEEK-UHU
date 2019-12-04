@@ -36,7 +36,7 @@ header nav{
 }
 
 #activeMenu {
-  background-color: #267979;
+  background-color: #;
 }
 
 
@@ -56,7 +56,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    background-color: #267979;
+    background-color: #c3e647;
 }
 
 header nav ul li a{
@@ -166,7 +166,7 @@ main {
 }
 
 #noticias a:hover {
-    color: rgb(177, 46, 177);
+    color: #D91C71;
 }
 
 #post-inferior{

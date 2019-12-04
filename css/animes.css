@@ -37,7 +37,7 @@ header {
 header nav {
     width: 100%;
     height: 50px;
-    border: 1px solid purple;
+    border: 1px solid #ff0000;
     background-color:black;
 }
 
@@ -57,7 +57,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    background-color:purple
+    background-color:#ff0000;
 }
 
 
@@ -99,7 +99,7 @@ aside h2{
     text-align: center;
     color: white;
     margin-top: 30px;
-    background: purple;
+    background: #ff0000;
 }
 
 main aside video{
@@ -138,7 +138,7 @@ section#titulo-categoria{
 }
 
 #titulo-categoria h1{
-    color: purple;
+    color: #ff0000;
     margin-left: auto;
     font-size: 24px;
     padding-top: 20px;
@@ -174,7 +174,7 @@ section#post-titulo h3{
     margin: auto;
     text-align: center;
     padding-top: 40px;
-    background-color: purple;
+    background-color: #ff0000;
 }
 
 section#post-data{
@@ -210,7 +210,7 @@ section#post-texto p{
 #post-texto h3{
     color: white;
     text-align: center;
-    background-color: purple;
+    background-color: #ff0000;
 }
 
 #post-texto figure{

@@ -16,11 +16,11 @@ nav{
     /* As tags abaixo servem para fixar o menu de navegação na página sem que os slides fiquem em cima dele */
     position: fixed;
     z-index: 9999999;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid #0000ff;
 }
 
 #activeMenu {
-  background-color: rgb(255, 0, 0);
+  background-color: #0000ff;
 }
 
 nav ul{    
@@ -41,7 +41,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-  background-color: rgb(255,0,0);  
+  background-color: #0000ff;  
 }
 
 nav ul li a {

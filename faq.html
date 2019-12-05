@@ -15,15 +15,17 @@
             <!-- Header que acompanha a rolagem -->
             <nav>
                 <ul>
-                    <li><a href="index.html"><h1>"SITE"</h1></a>
-                    <li><a href="animes.html">ANIMES</li><a>
-                    <li><a href="cinema.html">CINEMA</li><a>
-                    <li><a href="tecnologia.html">TECNOLOGIA</li><a>
-                    <li><a href="jogos.html">JOGOS</li><a>
-                    <li><a href="loja.html">LOJA</li><a>
-                    <li><a href="hq.html">HQ'S E LIVROS</li><a>
-                    <li><a href="paginatestes.html">TESTES</li>
+                    
+                    <li><a href="index.html"><h1>"SITE"</h1></a></li>
+                    <li><a href="animes.html">ANIMES</a></li>
+                    <li><a href="cinema.html">CINEMA</a></li>
+                    <li><a href="tecnologia.html">TECNOLOGIA</a></li>
+                    <li><a href="jogos.html">JOGOS</a></li>
+                    <li><a href="loja.html">LOJA</a></li>
+                    <li><a href="hq.html">HQ'S E LIVROS</a></li>
+                    <li><a href="paginatestes.html">TESTES</a></li>
                     <li><a href="#">CADASTRO</a></li>
+                    
                 </ul>
             </nav>
         </header> 
@@ -46,7 +48,7 @@
 
                 <div class="pesquisa">
                     <input type="text" class="barra-de-pesquisa" placeholder="Ex. Como comprar na loja?" value="">
-                    <input type="button" class="botao" type="submit">
+                    <input type="submit" class="botao">
                     <div id="linha"></div>
                 </div>
 
@@ -189,9 +191,42 @@
                     <label for="name">Nome:</label>
                     <input type="text" id="name" />
                 </div>
+                
                 <div>
                     <label for="mail">E-mail:</label>
                     <input type="email" id="mail" />
+                </div>
+                <div>
+                    <label for="fone">Telefone:</label>
+                    <input type="tel" id="fone" name="fone">
+                </div>
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <select id="cidade" name="cidade">
+                        <option value="1">Esteio</option>
+                        <option value="2">Gravataí</option>
+                        <option value="3">Novo Hamburgo</option>
+                        <option value="4">Passo Fundo</option>
+                        <option value="5">Pelotas</option>
+                        <option value="7">São Leopoldo</option>
+                        <option value="8">Alvorada</option>
+                        <option value="9">Canoas</option>
+                        <option value="10" selected="selected">Porto Alegre</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="duvida">Dúvida:</label>
+                    <select id="duvida" name="duvida">
+                        <option value="1">Outro</option>
+                        <option value="2">Cadastro</option>
+                        <option value="3">Testes</option>
+                        <option value="4">Jogos</option>
+                        <option value="5">Hq's e Livros</option>
+                        <option value="7">Animes</option>
+                        <option value="8">Tecnologia</option>
+                        <option value="9">Cinema</option>
+                        <option value="10" selected="selected">Loja</option>
+                    </select>
                 </div>
                 <div>
                     <label for="msg">Mensagem:</label>

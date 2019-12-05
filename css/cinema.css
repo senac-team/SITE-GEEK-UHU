@@ -158,20 +158,20 @@ section#titulo-categoria{
 }
 
 
-section#post-primeiro{
+section#postprimeiro{
     width: 100%;
     height: 454px;
     margin-top: 20px;
 
 }
 
-#post-primeiro figure{
+#postprimeiro figure{
     width: 90%;
     height: 100%;
     margin: auto;
 }
 
-#post-primeiro figure img{
+#postprimeiro figure img{
     width: 100%;
     height: 100%;
 }
@@ -242,13 +242,13 @@ section#post-texto p{
     height: 454px;
 }
 
-#espaco {
+.espaco {
     width: 100%;
     height: 60px;
 
 }
 
-#linha {
+.linha {
     width: 100%;
     height: 5px;
     background-color: rgb(87, 92, 87);

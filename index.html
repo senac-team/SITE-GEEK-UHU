@@ -16,14 +16,14 @@
             <!-- Header que acompanha a rolagem -->
             <nav>
                 <ul>
-                    <li><a href="index.html"><h1>"SITE"</h1></a>
-                    <li><a href="animes.html">ANIMES</li><a>
-                    <li><a href="cinema.html">CINEMA</li><a>
-                    <li><a href="tecnologia.html">TECNOLOGIA</li><a>
-                    <li><a href="jogos.html">JOGOS</li><a>
-                    <li><a href="loja.html">LOJA</li><a>
-                    <li><a href="hq.html">HQ'S E LIVROS</li><a>
-                    <li><a href="paginatestes.html">TESTES</li>
+                    <li><a href="index.html"><h1>"SITE"</h1></a></li>
+                    <li><a href="animes.html">ANIMES</a></li>
+                    <li><a href="cinema.html">CINEMA</a></li>
+                    <li><a href="tecnologia.html">TECNOLOGIA</a></li>
+                    <li><a href="jogos.html">JOGOS</a></li>
+                    <li><a href="loja.html">LOJA</a></li>
+                    <li><a href="hq.html">HQ'S E LIVROS</a></li>
+                    <li><a href="paginatestes.html">TESTES</a></li>
                     <li><a href="Cadastro.html">CADASTRO</a></li>
                 </ul>
             </nav>
@@ -114,7 +114,7 @@
 
                                         <figure class="fig-noticia">
                                             <a href="animes.html">
-                                                <a href="animes.html"><img src="img/index/noticias/anime1.jpeg" alt="Anime"></a>
+                                                <img src="img/index/noticias/anime1.jpeg" alt="Anime">
                                             </a>
                                         </figure>
 
@@ -127,7 +127,7 @@
 
                                         <figure class="fig-noticia">
                                             <a href="animes.html">
-                                                <a href="animes.html"><img src="img/index/noticias/anime2.jpeg" alt="Anime">
+                                                <img src="img/index/noticias/anime2.jpeg" alt="Anime">
                                             </a>
                                         </figure>
 
@@ -462,6 +462,11 @@
     </div>
 </body>
 
+
+<!-- Script de efeito nas fotos -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.sliphover.min.js"></script>
+
 <!-- Script para esconder o HEADER-->
 <script type="text/javascript">
             
@@ -487,19 +492,14 @@
 
     }
 
+    // Efeito nas fotos
+    $(function(){
+    
+    $('#destaque').sliphover({
+        withLink:true
+    });
+    })
+
 </script>
-
-<!-- Script de efeito nas fotos -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.sliphover.min.js"></script>
-
-      <script type="text/javascript">
-        $(function(){
-      
-      $('#destaque').sliphover({
-          withLink:true
-      });
-      })
-      </script>
 
 </html>

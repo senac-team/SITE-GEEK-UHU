@@ -41,6 +41,10 @@ header nav {
     background-color:black;
 }
 
+#activeMenu {
+    background-color: #ff0000;
+  }
+
 nav ul{
     width: 100%;
     height: 100%;

@@ -24,6 +24,10 @@ header {
     z-index: 9999999;
 }
 
+#activeMenu {
+    background-color: #ee82ee;
+  }
+
 header nav {
     width: 100%;
     height: 50px;

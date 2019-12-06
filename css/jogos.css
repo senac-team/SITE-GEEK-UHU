@@ -6,6 +6,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: black;
+    margin: 0 20px 0 70px;
 }
 
 #container {
@@ -86,7 +87,7 @@ main aside {
 #conteudo-aside{
     width: 80%;
     height: 100%;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 aside h2{

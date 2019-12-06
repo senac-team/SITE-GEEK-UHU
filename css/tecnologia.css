@@ -6,13 +6,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: black;
+    margin: 0 20px 0 70px;
+    height: 100%;
 }
 
 #container {
     max-width: 1300px;
     min-width: 980px;
     height: 100%;
-    background-color:#161515 ;
+    /*background-color:#161515 ;*/
     margin: auto;
 }
 
@@ -81,12 +83,13 @@ main aside {
     height: auto;
     float: left;
     margin-top: 50px;
+    
 }
 
 #conteudo-aside{
     width: 80%;
     height: 100%;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 aside h2{

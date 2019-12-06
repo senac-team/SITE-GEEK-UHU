@@ -92,7 +92,6 @@ main {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     
-    
 }
 
 #testepokemon article figure {
@@ -101,7 +100,6 @@ main {
     margin-left: 10px;
     
 }
-
 
 .img-teste img {
     width: 100%;
@@ -192,3 +190,17 @@ aside h2{
     height: 200px;
     margin-top: 20px;
 }
+
+.region .tituloFade {
+    width: 100%;
+
+  }
+  .region h1 {
+    text-transform: uppercase;
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    margin: 0;
+    opacity: 0;
+  }
+  
+  

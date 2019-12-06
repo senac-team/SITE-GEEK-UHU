@@ -137,26 +137,30 @@ main {
 
 #testes {
     width: 100%;
-    height: 240px;
-    margin-top: 35px;
-    background-color:#184242;
+    height: 40px;
+    margin-top: 80px;
+    background-color:#D91C71; 
+    opacity: 90%;
 }
 
 #banner {
-    width: 94%;
-    height: 80%;
+    width: 400px;
+    height: 40px;
     margin: auto;
+
 }
 
-#banner figure{
-    width: 100%;
-    height: 100%;
+#banner a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin: auto;
+    margin-left: 60px;
+    text-decoration: none;
 }
 
-#banner figure img{
-    width: 100%;
-    height: 100%;
-    margin-top: 25px;
+#banner a:hover{
+    color:grey;
 }
 
 
@@ -168,10 +172,6 @@ main {
 
 #inferior img:hover {
     opacity: 50%;
-}
-
-#noticias a:hover {
-    color: #D91C71;
 }
 
 #post-inferior{
@@ -240,8 +240,8 @@ article h3{
 .descricao{
     width: 100%;
     height: 10%;
-    background-color: rgb(54, 117, 134); 
     background-color:#D91C71; 
+    text-decoration: none;
 }
 
 #noticias{
@@ -252,7 +252,7 @@ article h3{
     text-align: center;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    font-weight: bold;
+    font-weight: bold;;
 }
 
 aside {

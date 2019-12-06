@@ -83,7 +83,7 @@ section#espaco-header{
 
 
 
-
+/* Asside */
 
 main aside {
     width: 32%;
@@ -141,6 +141,7 @@ section#titulo-categoria{
     height: 30%;
 }
 
+/* Titulo 1 Animes */
 #titulo-categoria h1{
     color: #ff0000;
     margin-left: auto;
@@ -172,12 +173,12 @@ section#post-titulo{
     height: 70px;
 
 }
-
+/*titulo Mundo dos animes*/
 section#post-titulo h3{
     color: white;
     margin: auto;
     text-align: center;
-    padding-top: 40px;
+    margin-top: 40px;
     background-color: #ff0000;
 }
 
@@ -210,7 +211,7 @@ section#post-texto p{
     padding-top: 15px;
     
 }
-
+/* titulos demon e nogame */
 #post-texto h3{
     color: white;
     text-align: center;

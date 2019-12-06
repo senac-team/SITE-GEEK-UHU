@@ -1,117 +1,210 @@
+* {
+    margin: 0px;
+}
 body {
     font-family: arial, verdana, sans-serif;
     font-size: 16px;
-    color: #000000;
     padding: 0;
     margin:0%;
+  
 }
 
-nav{
-    background-color: rgb(0,0,0);
+#container {
+    max-width: 1300px;
+    min-width: 980px;
+    height: 100%;
+    margin: auto;
+}
+
+header {
     width: 100%;
-    height: 50px;
-   
+    height: 50px;    
     position: fixed;
+    left: 0;
     z-index: 9999999;
 }
 
-nav ul{    
+#activeMenu {
+    background-color: #ee82ee;
+  }
+
+header nav {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ee82ee;
+    background-color:black;
+}
+
+nav ul{
     width: 100%;
     height: 100%;
     list-style-type: none; 
     margin: 0;
     padding: 0;
-    color: rgb(255,255,255); 
-    display: table;  
+    display: table;
 }
 
-nav ul li{  
+header nav ul li {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-size: 14px;
+    font-size: 14px; 
 }
 
-nav ul li:hover{
-  background-color: pink;  
+header nav ul li:hover {
+    background-color: #ee82ee;
 }
 
-nav ul li a {
-    color: #eeeeee;
+#activeMenu {
+    background-color: #ee82ee;
+}
+
+header nav ul li a{
     font-weight: bold;
     text-decoration: none;
+    color: white;    
 }
-.region .tituloFade {
+
+section#espaco-header{
     width: 100%;
-
+    height: 50px;
 }
-.region h1 {
-    text-transform: uppercase;
-    color: rgb(10, 10, 10);
-    font-size: 50px;
-    margin: 0;
-    opacity: 0;
-}
-
 main {
     
-    max-width: 1024px;
+    max-width: 1200px;
     min-width: 960px;
-    height: 100%;
-    margin: 0px auto;
-    position: relative;
-    top: 50px;
+    height: 4000px;
+    padding-top: 80px;
+    margin: auto;
+   
+}
+#espacamentoform {
+        
+        height: auto;
+        width: 65%;
+        float: left;
 }
 
 #nometeste {
-    font-size: 30px;
-    font-family: font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    font-family:'Bebas Neue', cursive;
+    background-color: #ee82ee;
     
-
 }
 
 #categoria {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    color: #d91c71;
-
+    
 }
 
-.formulario {
-    font-size: 18px;
-    text-align: left;
-
+#testepokemon article figure {
+    width: 200px;
+    height: 160px;
+    margin-left: 10px;
+    
 }
 
-#conteudo-aside{
-    width: 80%;
+.img-teste img {
+    width: 100%;
     height: 100%;
-    margin-left: 40px;
+}
+
+.coluna {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    
+}
+
+#testepokemon article p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    background-color: black;
+}
+
+.comida{
+    
+    width: 220px;
+    height: 180px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 28px;
+}
+
+.pokemon{
+    
+    width: 220px;
+    height: 180px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 28px;
+}
+
+form p{
+    margin-top: 30px;
+}
+
+#espaco {
+    width: 100%;
+    height: 60px;
+}
+
+#linha {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(87, 92, 87);
+    opacity: 15%;
+}
+
+aside {
+    width: 23%;
+    height: 100px;
+    float: left;
+    margin-left: 3%;
+}
+
+#conteudo-aside {
+    width: 100%;
+    height: 100%;
+}
+
+#conteudo-aside img {
+    width: 100%;
+    height: 100%;
+   
 }
 
 aside h2{
     font-size: 1.0em;
-    text-align: center;
-    color: white;
+    text-align: center;    
     margin-top: 30px;
+    background-color: #ee82ee;
 }
 
-main aside video{
-    width: 100%;
-    height:240px; 
-    margin: auto;
-    margin-top: 20px;
-
+aside h2{
+    font-size: 1.0em;
+    text-align: center;    
+    margin-top: 30px;
+    background-color: #ee82ee;
 }
 
-main aside figure img{
+#review img{
     width: 100%;
-    height: 500px;
-    margin-top: 20px;
-}
-
-figure#camisetas img{
-    width: 100%;
-    height: 300px;
+    height: 200px;
     margin-top: 20px;
 }
+
+.region .tituloFade {
+    width: 100%;
+
+  }
+  .region h1 {
+    text-transform: uppercase;
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    margin: 0;
+    opacity: 0;
+  }
+  
+  

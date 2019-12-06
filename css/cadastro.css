@@ -52,10 +52,6 @@ section#formulario{
     
 }
 
-#formulario form {
-  
-}
-
 section#post1{
     float: left;
     color:white;
@@ -77,6 +73,7 @@ header {
     position: fixed;
     left: 0;
     z-index: 9999999;
+    border: 1px solid #ffa500;
 }
 
 header nav {

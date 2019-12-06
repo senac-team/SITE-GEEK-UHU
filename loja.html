@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,37 +14,37 @@
             <!-- Menu de navegação -->
             <nav>
                 <ul>
-                    <li><a href="index.html"></a><h1>"SITE"</h1></li><a></a>
-                    <li><a href="animes.html">ANIMES</li><a>
-                    <li><a href="cinema.html">CINEMA</li><a>
-                    <li><a href="tecnologia.html">TECNOLOGIA</li><a>
-                    <li><a href="jogos.html">JOGOS</li><a>
-                    <li id="activeMenu"><a href="loja.html">LOJA</li><a>
-                    <li><a href="hq.html">HQ'S E LIVROS</li><a>
-                    <li><a href="testes.html">TESTES</li>
-                    <li><a href="#">PESQUISAR</a></li>
+                    <li><a href="index.html"><h1>HOME</h1></a></li>
+                    <li><a href="animes.html">ANIMES</a></li>
+                    <li><a href="cinema.html">CINEMA</a></li>
+                    <li><a href="tecnologia.html">TECNOLOGIA</a></li>
+                    <li><a href="jogos.html">JOGOS</a></li>
+                    <li id="activeMenu"><a href="loja.html">LOJA</a></li>
+                    <li><a href="hq.html">HQ'S E LIVROS</a></li>
+                    <li><a href="paginatestes.html">TESTES</a></li>
+                    <li><a href="cadastro.html">CADASTRO</a></li>
                 </ul>
             </nav>
         </header>
         <!-- Conteúdo principal da página -->
         <main>            
-            <section id="destaqueProdutos">
+            <div id="destaqueProdutos">
                 <!-- Slider com produtos e descontos da loja -->
                 <div class="sliderProdutos">
                     <!-- Imagens que vão aparecer no slide show -->
                     <div class="slides">
                         <div class="paginas"></div>
-                        <img src="img/loja/banner-marvel.jpg" style="width:100%; height: 250px;">
+                        <img src="img/loja/banner-marvel.jpg" alt="Banner da Marvel">
                         <div class="texto"></div>
                     </div>                            
                     <div class="slides">
                         <div class="paginas"></div>
-                        <img src="img/loja/banner-rick-morty.jpg" style="width:100%">
+                        <img src="img/loja/banner-rick-morty.jpg" alt="Banner do Rick and Morty">
                         <div class="texto"></div>
                     </div>                            
                     <div class="slides">
                         <div class="paginas"></div>
-                        <img src="img/loja/banner-senhor-dos-aneis.jpg" style="width:100%">
+                        <img src="img/loja/banner-senhor-dos-aneis.jpg" alt="Banner do Senhor dos Anéis">
                         <div class="texto"></div>
                     </div>                            
                     <!-- Botões para avançar ou voltar nos slides do Javascript -->
@@ -57,69 +58,70 @@
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
-            </section>
+            </div>
             <!-- Seção com os produtos a mostra na loja -->
             <section id="produtos">
                 <h2>PRODUTOS DA NOSSA LOJA</h2>
                 <!-- Cada "article" é uma div do qual fica a imagem e informações do produto -->
                 <article>
                     <figure>
-                        <img src="img/loja/almofada-marvel.jpg">
+                        <img src="img/loja/almofada-marvel.jpg" alt="Almofada da Marvel">
                         <h4>ALMOFADA MARVEL</h4>
                         <p><b>R$59,90</b><br>ou em até 12x de R$4,99</p>
                     </figure>
                 </article>
                 <article>
                     <figure>
-                        <img src="img/loja/livro-hobbit.jpg">
+                        <img src="img/loja/livro-hobbit.jpg" alt="Livro O Hobbit">
                         <h4>LIVRO HOBBIT - EDIÇÃO LIMITADA</h4>
                         <p><span>R$ 69,90</span> <b>R$ 49,90</b><br>ou em até 12x de R$ 4,16</p>
                     </figure>
                 </article>
                 <article>   
                     <figure>
-                        <img src="img/loja/rick-and-morty-o-grito.jpg">
+                        <img src="img/loja/rick-and-morty-o-grito.jpg" alt="Quadro O Grito do Rick and Morty">
                         <h4>QUADRO O GRITO - RICK AND MORTY</h4>
                         <p><b>R$ 69,90</b><br>ou em até 12x de R$ 5,83</p>
                     </figure>
                 </article>
                 <article>   
                     <figure>
-                        <img src="img/loja/quadro-snuffles-rick-and-morty.jpg">
+                        <img src="img/loja/quadro-snuffles-rick-and-morty.jpg" alt="Quadro Snuffles do Rick and Morty">
                         <h4>QUADRO SNUFFLES - RICK AND MORTY</h4>
                         <p><b>R$ 89,90</b><br>ou em até 12x de R$ 7,50</p>
                     </figure>
                 </article><br>
                 <article>
                     <figure>
-                        <img src="img/loja/caneca-hulk.jpg">
+                        <img src="img/loja/caneca-hulk.jpg" alt="Caneca do Hulk">
                         <h4>CANECA HULK</h4>
                         <p><b>R$59,90</b><br>ou em até 12x de R$4,99</p>
                     </figure>
                 </article>
                 <article>
                     <figure>
-                        <img src="img/loja/copo-central-perk-01.jpg">
+                        <img src="img/loja/copo-central-perk-01.jpg" alt="Copo Central Perk Friends">
                         <h4>COPO CENTRAL PERK</h4>
                         <p><b>R$ 21,90</b><br>ou em até 4x de R$ 5,48</p>
                     </figure>
                 </article>
                 <article>   
                     <figure>
-                        <img src="img/loja/quadro-placa-yoda.jpg">
+                        <img src="img/loja/quadro-placa-yoda.jpg" alt="Quadro Yoda Star Wars">
                         <h4>PLACA DE METAL MESTRE YODA</h4>
                         <p><b>R$ 39,90</b><br>ou em até 7x de R$ 5,70</p>
                     </figure>
                 </article>
                 <article>   
                     <figure>
-                        <img src="img/loja/almofada-chewbacca.jpg">
+                        <img src="img/loja/almofada-chewbacca.jpg" alt="Almofada Chewbacca Star Wars">
                         <h4>ALMOFADA CHEWBACCA</h4>
                         <p><b>R$ 59,90</b><br>ou em até 11x de R$ 5,45</p>
                     </figure>
+                </article>
             </section>
         </main>
-    </body>
-    <!-- JavaScript do slide show -->
-    <script src="js/slideShow.js"></script>
+        <!-- JavaScript do slide show -->
+        <script src="js/slideShow.js"></script>
+    </body>    
 </html>

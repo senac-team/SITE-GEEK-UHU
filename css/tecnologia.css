@@ -58,11 +58,11 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    background-color: #ffff00;
+    background-color: #bbbb31;
 }
 
 #activeMenu {
-    background-color: #ffff00;
+    background-color: #bbbb31;
 }
 
 header nav ul li a{
@@ -96,8 +96,10 @@ aside h2{
 }
 
 main h2, h3{
-    color: rgb(0,0,0);
-    background-color: rgb(255,255,255);    
+    /*color: rgb(0,0,0);
+    background-color: rgb(255,255,255);*/
+    background-color: #bbbb31;
+    color: white; 
 }
 
 main aside video{
@@ -195,17 +197,17 @@ main aside figure img{
     height: 454px;
 }
 
-#espaco {
+.espaco {
     width: 100%;
     height: 60px;
 }
 
-#linha {
+/*#linha {
     width: 100%;
     height: 5px;
     background-color: rgb(87, 92, 87);
     opacity: 15%;
-}
+}*/
 
 #tutorial img{
     width: 100%;

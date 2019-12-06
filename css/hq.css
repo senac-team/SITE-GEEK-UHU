@@ -1,19 +1,29 @@
 * {
     margin: 0px;
+    color: rgb(255,255,255);
 }
-body {
-    font-family: arial, verdana, sans-serif;
-    font-size: 16px;
-    padding: 0;
-    margin:0%;
-  
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
 }
 
 #container {
     max-width: 1300px;
     min-width: 980px;
     height: 100%;
+    background-color:#161515 ;
     margin: auto;
+}
+
+#conteudo {
+    width: 100%;
+}
+
+#post {
+    width: 68%;
+    float: left;
+    margin-top: 50px;
 }
 
 header {
@@ -24,14 +34,10 @@ header {
     z-index: 9999999;
 }
 
-#activeMenu {
-    background-color: #ee82ee;
-  }
-
 header nav {
     width: 100%;
     height: 50px;
-    border: 1px solid #ee82ee;
+    border: 1px solid #4b0082;
     background-color:black;
 }
 
@@ -52,11 +58,11 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    background-color: #ee82ee;
+    background-color: #4b0082;
 }
 
 #activeMenu {
-    background-color: #ee82ee;
+    background-color:#4b0082;
 }
 
 header nav ul li a{
@@ -69,80 +75,126 @@ section#espaco-header{
     width: 100%;
     height: 50px;
 }
-main {
-    
-    max-width: 1200px;
-    min-width: 960px;
-    height: 4000px;
-    padding-top: 80px;
+
+main aside {
+    width: 32%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+
+#conteudo-aside{
+    width: 80%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+aside h2{
+    font-size: 1.0em;
+    text-align: center;    
+    margin-top: 30px;
+}
+
+main h2, h3{
+    color: rgb(0,0,0);
+    background-color: #4b0082;    
+}
+
+
+main aside figure img{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#review img{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#titulo-categoria{
+    height: 50px;
+}
+
+.primeiro :first-child{
+    width: 100%;
+    height: 454px;
+    margin-top: 15px;
+}
+
+.primeiro figure{
+    width: 90%;
+    height: 100%;
     margin: auto;
-   
 }
-#espacamentoform {
-        
-        height: auto;
-        width: 65%;
-        float: left;
+.segundo figure{
+    width: 90%;
+    height: 100%;
+    margin: auto;
 }
 
-#nometeste {
-    font-size: 40px;
-    font-family:'Bebas Neue', cursive;
-    background-color: #ee82ee;
-    
-}
-
-#categoria {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    
-}
-
-#testepokemon article figure {
-    width: 200px;
-    height: 160px;
-    margin-left: 10px;
-    
-}
-
-.img-teste img {
+.primeiro figure img{
     width: 100%;
     height: 100%;
 }
+.segundo figure img{
+    margin-left: 115px;
+}
 
-.coluna {
+.titulo{
     width: 100%;
-    height: 200px;
-    margin-top: 30px;
-    
+    height: 50px;
 }
 
-#testepokemon article p {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    background-color: black;
+.titulo h3{    
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.comida{
-    
-    width: 220px;
-    height: 180px;
-    padding-top: 10px;
-    float: left;
-    margin-left: 28px;
+.data{
+    width: 100%;
+    height: 30px;
 }
 
-.pokemon{
-    
-    width: 220px;
-    height: 180px;
-    padding-top: 10px;
-    float: left;
-    margin-left: 28px;
+.data p{
+    font-size: 0.64em;
+    color: #B3B3B3;
+    line-height: 1em;    
+    text-align: center;
 }
 
-form p{
-    margin-top: 30px;
+.post-texto{
+    width: 100%;
+    height: auto;
+}
+.post-texto p{
+    width: 90%;
+    text-align: justify;
+    font-size: 0.9em;;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: white;
+    line-height: 20px; 
+    padding-top: 15px;    
+}
+
+.post-texto h3{
+    color:  #4b0082;
+    text-align: center;
+}
+
+.post-texto figure{
+    width: 90%;
+    height: 100%;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.post-texto figure img{
+    width: 100%;
+    height: 454px;
 }
 
 #espaco {
@@ -157,52 +209,7 @@ form p{
     opacity: 15%;
 }
 
-aside {
-    width: 23%;
-    height: 100px;
-    float: left;
-    margin-left: 3%;
-}
-
-#conteudo-aside {
-    width: 100%;
-    height: 100%;
-}
-
-#conteudo-aside img {
-    width: 100%;
-    height: 100%;
-   
-}
-
-aside h2{
-    font-size: 1.0em;
-    text-align: center;    
-    margin-top: 30px;
-    background-color: #ee82ee;
-}
-
-aside h2{
-    font-size: 1.0em;
-    text-align: center;    
-    margin-top: 30px;
-    background-color: #ee82ee;
-}
-
-#review img{
+#tutorial img{
     width: 100%;
     height: 200px;
-    margin-top: 20px;
 }
-
-.region .tituloFade {
-    width: 100%;
-
-  }
-  .region h1 {
-    text-transform: uppercase;
-    color: rgb(10, 10, 10);
-    font-size: 50px;
-    margin: 0;
-    opacity: 0;
-  }

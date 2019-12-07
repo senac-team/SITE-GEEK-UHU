@@ -11,7 +11,6 @@ body{
     max-width: 1300px;
     min-width: 980px;
     height: 2590px;
-    background-color:#161515 ;
     margin: auto;
 }
 
@@ -127,10 +126,6 @@ figure#camisetas img{
     width: 100%;
     height: 300px;
     margin-top: 20px;
-}
-
-section#titulo-categoria{
-    height: 50px;
 }
 
 #titulo-categoria h1{
